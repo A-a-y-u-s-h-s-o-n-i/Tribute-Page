@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito|Raleway|Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#main{
+    border-radius:5px;
+    font-family:'Montserrat',sans-serif;
+    margin:20px;
+    background-color:#FCF3CF;
+    padding:30px 5px;
+}
+
+#title{
+    text-align:center;
+    font-size:2.5em;
+    font-family:'Nunito',sans-serif;
+    letter-spacing:2px;
+}
+
+#main p{
+    text-align:center;
+    font-size:10x;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+    display:block;
+}
+
+#img-div{
+    border-radius:5px;
+    background:#FEF9E7;
+    padding:20px 20px 5px 20px;
+    margin:30px 10px;
+}
+
+#image{
+    width:100%;
+}
+
+#img-caption{
+    font-size:14px;
+    margin:8px 0;
+}
+
+#tribute-info{
+    margin-top:50px;
+}
+
+#tribute-info h3{
+    font-weight:100;
+    font-size:20px;;
+    text-align:center;
+}
+
+ul{
+    margin:50px auto;
+    max-width:550px;
+}
+
+li{
+    font-weight:400;
+    line-height:25px;
+    margin:20px 0;
+}
+
+#tribute-info p{
+    margin:0 auto;
+    max-width:550px;
+}
+
+#tribute-info #link{
+    margin-top:20px;
+}
+
+@media (max-width:720px) and (min-width:550px){
+    ul{
+        margin:50px 12%;
+    }
+
+    li{
+        font-size:14px;
+        line-height:25px;
+        margin:20px 0;
+    }
+
+    #tribute-info p{
+        margin:0 10%;
+    }
+}
+
+@media (max-width:550px){
+
+    #img-div{
+        border-radius:5px;
+        background:#FEF9E7;
+        padding:10px 10px 5px 10px;
+        margin:30px 10px;
+    }
+    ul{
+        margin:50px 12%;
+    }
+
+    li{
+        font-size:14px;
+        line-height:25px;
+        margin:20px 0;
+    }
+
+    #tribute-info p{
+        margin:0 10%;
+    }
+}
